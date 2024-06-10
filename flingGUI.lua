@@ -33,7 +33,7 @@ local function notif(str,dur)
 	game:FindService("StarterGui"):SetCore("SendNotification", {
 		Title = "lost's fling gui",
 		Text = str,
-		Icon = "",
+		Icon = "rbxasset://13847467461",
 		Duration = dur or 3
 	})
 end
@@ -59,7 +59,7 @@ Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.174545452, 0, 0.459574461, 0)
 Main.Size = UDim2.new(0, 454, 0, 218)
-Main.Image = ""
+Main.Image = "rbxasset://13847467461"
 
 Top.Name = "Top"
 Top.Parent = Main
@@ -99,7 +99,7 @@ TextButton.BorderSizePixel = 0
 TextButton.Position = UDim2.new(0.10352423, 0, 0.596330225, 0)
 TextButton.Size = UDim2.new(0, 359, 0, 50)
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "rape em''"
+TextButton.Text = "fuck 'em"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
